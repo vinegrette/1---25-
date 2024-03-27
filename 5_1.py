@@ -3,9 +3,9 @@ x=int(input('Введите число'))
 
 if x in lst:
     print(lst)
-    print(
+    print('Ваше число: ',x)
     print('Вы угадали число!')
 else:
     print(lst)
-    print(x)
-    print('Вы не угадали нихуя')
+    print('Ваше число: ',x)
+    print('Вы не угадали число')
