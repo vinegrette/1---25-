@@ -1,6 +1,13 @@
-a = [1, 2, 3, 45, 4, 3, 21, 1]
-for i in (0, len(a)-1):
-    for x in (0, len(a)-1):
-        if a[i] == a[x]:
-            print(a[x])
-            break
+lst = [1, 2, 3, 4, 5, 2, 6, 7]
+
+povt = set()
+for i in lst:
+    if lst.count(item) > 1:
+        povt.add(item)
+
+if povt.count > 0:
+    print("Повторяющиеся элементы в списке:")
+    for i in povt:
+        print(i)
+else:
+    print("В списке нет повторяющихся элементов.")
